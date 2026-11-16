@@ -1,0 +1,365 @@
+
+* {
+  margin: 0%;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3%;
+  background: rgb(107, 64, 220);
+  height: 70px;
+  color: white;
+  align-items: center;
+}
+nav {
+  display: inline-flex;
+  gap: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}
+header .icon {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+header icon span {
+  display: inline flex;
+  padding: 10%;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.banner {
+  background-color: rgb(107, 64, 220);
+  height: 605px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 0 5%;
+  line-height: 60px;
+}
+.banner .child1 {
+  padding: 100px 0;
+}
+.banner .child1 h1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.banner .child1 p {
+  line-height: 30px;
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+.btn {
+  outline: none;
+  background-color: blue;
+  border: none;
+  padding: 18px 40px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #fff;
+}
+.child2 {
+  background-image:
+    linear-gradient(rgba(40, 31, 91, 0.5), rgba(40, 31, 91, 0.5)),
+    url(images/123581.jpg);
+  height: 605px;
+  border-radius: 100% 0 0 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 700px;
+}
+.service-title {
+  font-size: 50px;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  color: rgba(0, 0, 0);
+  text-transform: capitalize;
+  transition: 0.5s;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 30px;
+}
+
+.services .card {
+  background: #fff;
+  padding: 20px;
+  height: 320px;
+  width: 357px;
+  border: 1.8px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  font-family: muli;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+.services .card img{
+  height: 57px;
+  width: 56px;
+  
+}
+span.desc{
+  line-height: 1.6;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+    background: rgb(255, 255, 255);
+}
+.card-title{
+  margin-top: 0;
+    margin-bottom: .5em;
+    color: rgba(0, 0, 0, .85);
+    font-weight: 500;
+}
+.title-container h1{
+  text-align: center;
+  padding: 50px 0;
+  text-transform: capitalize;
+  font-weight:lighter;
+  font-family: Oswald, sans-serif;
+  font-size: 50px;
+  line-height: 62px;
+  font-weight: 400;
+  color: rgb(0, 29, 56);
+}
+.port-container{
+    overflow: hidden;
+    width: 100%;  
+    display: flex;
+    justify-content: center; 
+    gap: 15px;
+  }
+  .port-container  img{
+    width: 400px;
+    
+  }
+ 
+.container2{
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 50px;
+padding: 35px 0px;
+
+
+}
+.title{
+  display: flex;
+  /* line-height: 20px; */
+  align-items: center;
+  justify-content: center;
+   height: 60px;
+   width: 100px;
+   border:1px solid rgb(97, 92, 253);
+   font-size: 15px;
+   font-weight: 600;
+   color: rgb(97, 92, 253);
+   text-transform: capitalize;
+   text-decoration: none;
+
+}
+.anchor{
+  text-decoration: none;
+
+}
+.inno{
+  border: 1px solid rgb(97, 92, 253);
+  background-color: blue;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+}
+.aboutme{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+} 
+.aboutmesub{
+text-transform: capitalize;
+}
+.imageabout{
+  height: 300px;
+  width: 250px;
+  border: rgb(54, 46, 46);
+  justify-content: center;
+  background: url(./images/123581.jpg) no-repeat;
+  display: flex;
+  align-items: center;
+}
+.discuss-title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.bk{
+ color: rgb(240, 240, 240);
+ display: flex;
+ text-transform: capitalize;
+ height: 100px;
+ width: 300;
+ 
+}
+.footer {
+    background: #001d35;
+    color: white;
+    min-height: 500px;
+    padding: 95px 5% 40px;
+    text-align: center;
+}
+
+.footer-content h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 45px;
+}
+
+.footer-content p {
+    font-size: 30px;
+    margin-bottom: 65px;
+}
+
+.connect-btn {
+    display: inline-block;
+    background: #6255f5;
+    color: white;
+    text-decoration: none;
+    padding: 30px 65px;
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.connect-btn:hover {
+    background: #4839db;
+}
+
+.footer hr {
+    border: none;
+    border-top: 2px solid #29445a;
+    margin: 58px 0 80px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.footer-links a:hover {
+    color: #6255f5;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.social-icons a {
+    width: 78px;
+    height: 78px;
+    border: 2px solid #29445a;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background: #6255f5;
+}
+
+.social-icons svg {
+    width: 32px;
+    height: 32px;
+    fill: white;
+}
+
+.copyright {
+    color: #b8c1cc;
+    font-size: 20px;
+    line-height: 2;
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+
+    .footer {
+        padding: 60px 5% 35px;
+    }
+
+    .footer-content h1 {
+        font-size: 32px;
+    }
+
+    .footer-content p {
+        font-size: 23px;
+    }
+
+    .connect-btn {
+        padding: 20px 35px;
+        font-size: 20px;
+    }
+
+    .footer-links {
+        gap: 25px;
+    }
+
+    .footer-links a {
+        font-size: 18px;
+    }
+
+    .social-icons a {
+        width: 55px;
+        height: 55px;
+    }
+
+    .copyright {
+        font-size: 16px;
+    }
+}
